@@ -20,7 +20,7 @@ const questions = [
 {
     type:'input',
     name:'title',
-    message:'What is the name of the project'
+    message:'What is the name of the project?'
 },
 
 {
@@ -46,7 +46,7 @@ const questions = [
 {
     type:'input',
     name:'testing',
-    message:'What command to run tests (default is npm test)',
+    message:'What command to run tests? (default is npm test)',
     default:'npm test',
 },
 
@@ -59,7 +59,7 @@ const questions = [
 {
     type:'input',
     name:'contributing',
-    message:'what does the user need to know about contributing to this project?'
+    message:'What does the user need to know about contributing to this project?'
 },
 
 {
